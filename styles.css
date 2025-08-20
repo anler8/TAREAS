@@ -1,0 +1,27 @@
+*.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+*.card {
+    border-radius: 50px;   
+    box-shadow: aqua;    
+    padding: 20px;             
+    background-color: rgb(185, 227, 235);   
+    width: 400px;             
+    margin: 20px ;     
+    display: flexbox;
+    justify-content: center;
+}
+.card img {
+    border-radius: 50px;
+}
+.card:hover {
+    background-color: rgb(56, 193, 228);
+ }
+.contacto{
+    font: 1em sans-serif;
+}
